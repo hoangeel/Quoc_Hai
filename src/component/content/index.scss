@@ -1,0 +1,52 @@
+div.header{
+    position: relative;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    h3{
+        font-family: 'Times New Roman', Times, serif;
+        color: blue;
+        position: absolute;
+        left: 7%;
+        top: 40px;
+    }
+    h4{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        left: 7%;
+        top: 80px;
+    }
+    h6{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        left: 10%;
+        top: 130px;
+        color: red;
+    }
+    img{
+        position: absolute;
+        top:25px;
+        left:85%;
+        width: 100px;
+        height: 100px;
+    }
+
+}
+div.content{
+    h3{
+        font-family: 'Times New Roman', Times, serif; 
+    }
+}
+div.footer{
+    background-color: blue;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: Times;
+    font-weight: bold;
+    position:relative;
+    top:10%;
+}
