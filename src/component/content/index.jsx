@@ -5,12 +5,15 @@ import LOGO from "../img/quochai.img.png"
 export default function Content() {
   return (
     <div className='container-fluid'>
-        <div className='header'>
+        <div className='row header'>
             <hr/>
-            <h3><b>CHUYÊN DOANH THIẾT BỊ VĂN PHÒNG COPIER-COMPUTER</b></h3>
-            <h4><b>CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ QUỐC HẢI</b></h4>
-            <img src={LOGO} alt="" />
-            <h6><b>Hỗ trợ online: 090.646.75.75 (Mr.Hải)</b></h6>
+            <div className='col-1'></div>
+            <div className='col-10'>
+                <h3><b>CHUYÊN DOANH THIẾT BỊ VĂN PHÒNG COPIER-COMPUTER</b></h3>
+                <h4><b>CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ QUỐC HẢI</b></h4>
+                <h6><b>Hỗ trợ online: 090.646.75.75 (Mr.Hải)</b></h6>
+            </div>
+            <div className='col-1'><img src={LOGO} alt="" /></div>
         </div>
         <hr/>
         <div className='container content'>
